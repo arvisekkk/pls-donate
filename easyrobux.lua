@@ -888,6 +888,7 @@ local danceDropdown = otherTab:AddDropdown("[ " .. getgenv().settings.danceChoic
 		Players:Chat("/e wave")
 	elseif object == "1" then
 		Players:Chat("/e dance")
+		Players:Chat("/e floss dance")
 	else
 		Players:Chat("/e dance" .. object)
 	end
